@@ -13,6 +13,8 @@ def start_client():
     while 1:
      response = client_socket.recv(1024).decode('utf-8')
      print(response)
+     print()
+     
     
 
 if __name__ == "__main__":
